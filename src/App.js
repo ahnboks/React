@@ -1,9 +1,23 @@
+<<<<<<< HEAD
+import React from "react";
+import LectureRegistration from "./components/lecture/LectureRegistration";
+import Popup from "./components/popup/Popup";
+import SomunEvent from "./components/somun/SomunEvent";
+=======
 import logo from './logo.svg';
 import './App.css';
+>>>>>>> 5a56165dabe6048074f0c772adc2a41cff938810
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
+      <LectureRegistration/>
+      <br/>
+      <Popup/>
+      <br /><br />
+      <SomunEvent/>
+=======
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +32,7 @@ function App() {
           Learn React
         </a>
       </header>
+>>>>>>> 5a56165dabe6048074f0c772adc2a41cff938810
     </div>
   );
 }
